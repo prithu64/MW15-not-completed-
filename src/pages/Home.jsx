@@ -20,11 +20,11 @@ function Home() {
 
       {/* Content */}
       <div className="absolute flex flex-col z-20 p-4 sm:p-6 w-full">
-        <div className="flex flex-col md:flex-row max-w-7xl justify-between   items-center md:space-x-6 space-y-6 md:space-y-0">
+        <div className="flex flex-col md:flex-row max-w-7xl justify-between   items-center md:space-x-6 space-y-8 md:space-y-0">
           
           {/* Left - Text */}
           <div className="text-white text-center md:text-left max-w-lg">
-            <h1 className="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 leading-tight">
+            <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl mb-3 leading-tight">
               Relive the legends, explore in full 3D
             </h1>
             <p className="text-sm sm:text-base md:text-lg italic">
