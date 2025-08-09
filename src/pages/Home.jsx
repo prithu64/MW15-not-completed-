@@ -24,7 +24,7 @@ function Home() {
                 </div>
                 
                 <div className="md:w-[60%] mt-6 text-white overflow-hidden mask-fade">
-                   <div className="md:h-80 h-80 px-5  marquee-vertical  scrollbar-hide  ">
+                   <div className="md:h-80 h-60 px-5  marquee-vertical  scrollbar-hide  ">
                       {
                         Blacklist.map((cars)=>{
                           return(
