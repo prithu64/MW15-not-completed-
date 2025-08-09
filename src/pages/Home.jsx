@@ -19,12 +19,12 @@ function Home() {
             <div className="flex flex-col md:flex-row max-w-7xl justify-between space-y-5 space-x-4 items-center">
 
                 <div className="text-white ">
-                  <h1 className="font-bold  text-4xl md:text-8xl mb-3">Relive the legends,explore in full 3D</h1>
+                  <h1 className="font-bold  text-2xl lg:text-8xl md:text-5xl mb-3">Relive the legends,explore in full 3D</h1>
                   <p className="text-sm md:text-xl italic"><span className="text-2xl md:text-3xl  font-bold text-amber-500">NFS Most Wanted</span> was a big part of my childhood,the races, the cars, the thrill. This is my small tribute to those memories and for everyone who’s ever chased the Blacklist.</p>
                 </div>
                 
                 <div className="md:w-[60%] mt-6 text-white overflow-hidden mask-fade">
-                   <div className="h-80 px-5  marquee-vertical  scrollbar-hide  ">
+                   <div className="md:h-80 h-20 px-5  marquee-vertical  scrollbar-hide  ">
                       {
                         Blacklist.map((cars)=>{
                           return(
