@@ -14,7 +14,7 @@ function Home() {
         
         <div className="absolute top-0 left-0 w-full h-full bg-black/60 z-10"/>
 
-        <div className="absolute flex flex-col z-20 p-3 mx-auto mt-10">
+        <div className="absolute flex flex-col z-20 p-3 mx-auto ">
 
             <div className="flex flex-col md:flex-row max-w-7xl justify-between space-y-5 space-x-4 items-center">
 
@@ -24,7 +24,7 @@ function Home() {
                 </div>
                 
                 <div className="md:w-[60%] mt-6 text-white overflow-hidden mask-fade">
-                   <div className="md:h-80 h-40 px-5  marquee-vertical  scrollbar-hide  ">
+                   <div className="md:h-80 h-80 px-5  marquee-vertical  scrollbar-hide  ">
                       {
                         Blacklist.map((cars)=>{
                           return(
