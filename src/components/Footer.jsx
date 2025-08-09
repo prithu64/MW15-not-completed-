@@ -1,0 +1,12 @@
+import React from 'react'
+
+function Footer() {
+  return (
+    <div className='flex flex-col items-center md:items-start text-white text-sm mt-6 z-40'>
+        <h1 className='italic'>You can’t touch me.</h1>
+        <h1>~Razor</h1>
+    </div>
+  )
+}
+
+export default Footer
